@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -25,12 +26,37 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
-        </ul>   
+          <li>Inline CSS happens inside the HTML tags</li>
+          <li>Internal CSS style sheet happens within the HTML "style" element</li>
+          <li>External CSS style sheet happens in a seperate file and is linked to the HTML file by using a "link" tag</li>
+          <li>A margin property indicates how much space we want around the outside of an element</li>
+          <li>The padding property adds space around the content inside an element</li>
+          <li>'*' can be used as a wild card to define all elements</li>
+          <li>Giving display the value "block" will make each affiliated element start on a new line</li>
+          <li>Including a period '.' before an HTML element in CSS will designate it as a class</li>
+          <li>For directional elements, the first entry is for top, bottom and the second entry is for left, right (ex. margin: 40px, auto)</li>
+        </ul>
+        <br></br>
+        <p>Values and their use cases:</p>
+        <ul>
+          <li>width: (auto, 100%; 120px);</li>
+          <li>height: ^</li>
+          <li>margin: ^</li>
+          <li>margin-left: ^</li>
+          <li>margin-right: ^</li>
+          <li>color: (blue, white, rgb(0, 0, 128), rgba(175, 175, 225, 0.5));</li>
+          <li>background-color: ^</li>
+          <li>text-align: (center);</li>
+          <li>display: (block);</li>
+          <li>font-size: (24px);</li>
+          <li>border: [size, type, color];</li>
+          <li>box-shadow: [X-offset, Y-offset, blur, spread-radius, color];</li>
+        </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <p>General commands:</p>
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b [branch-name]: creates a new branch and switches to it</li>
@@ -61,7 +87,7 @@
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p style="text-align: center; font-size: 30px; padding: 0; font-weight: lighter;">I can code!</p>
     </footer>
   </body>
 </html>
