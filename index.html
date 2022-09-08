@@ -11,6 +11,7 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -20,6 +21,8 @@
           <li>The body element represents the visible content shown to the user.</li>
           <li>An element is the entire element from opening tag to closing tag</li>
           <li>A tag is only what appears inside the angle brackets</li>
+          <li>Linking a CSS file via a Link element is done within the Head element</li>
+          <li>Linking a JS file via a Script element is done within the Body element</li>
         </ul>   
       </section>
    
@@ -76,12 +79,43 @@
           <li>*git diff: shows what is changed</li>
           <li>*git branch: lists your branches</li>
         </ul>
+        <br>
+        <p>Git Flow steps:</p>
+        <ul>
+          <li>cd .. (navigate to main directory)</li>
+          <li>git add -A</li>
+          <li>git commit -m "[your message here]"</li>
+          <li>git pull origin main</li>
+          <li>git push origin feature/add-js</li>
+          <li>> code</li>
+          <li>> [branch icon] > feature/[branch-name]</li>
+          <li>> [new pull request]</li>
+          <li>> [create pull request]</li>
+          <li>> [merge pull request]</li>
+          <li>git checkout main</li>
+          <li>git pull origin main</li>
+        </ul>
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Variables in JS are dynamic meaning they aren't directly associated with any particular value type</li>
+          <li>Types include Boolean, Null, Undefined, Number, BigInt, String, and Symbol</li>
+          <li>The keyword 'var' is used to define a variable</li>
+          <li>The tag 'script' has the same role as the tag 'link'</li>
+          <li>Always end code lines with a semicolon: ';'</li>
+          <li>Comments can be created by using // or by surrounding text within '/* */'</li>
+          <li>Equality checks are done using '===' and Inequality checks are likewise done using '!=='</li>
+          <li>Anonymous functions can be written by 'function ()' or '() =>'</li>
+          <li>Event listeners are done using 'addEventListener()'</li>
+          <li>The function 'document.querySelector([tag])' is used to select a tag</li>
+          <li>The function 'alert()' displays a dialog box</li>
+          <li>The function 'prompt()' asks the user for enter data and stores it in a value</li>
+          <li>The function 'console.log()' outputs whatever is contained within the parentheses to the web console. It is mainly used for debugging</li>
+          <li>The property '.length' gives us the array's length</li>
         </ul>
       </section>
     </main>
@@ -89,5 +123,7 @@
     <footer>
       <p style="text-align: center; font-size: 30px; padding: 0; font-weight: lighter;">I can code!</p>
     </footer>
+
+    <script src="./assets/script.js"></script>
   </body>
 </html>
